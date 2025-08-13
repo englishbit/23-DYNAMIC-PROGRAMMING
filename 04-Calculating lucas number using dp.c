@@ -16,6 +16,7 @@ int lucas(int n){
 
     return lucas[n];
 }
+
 int main(){
     int n;
     scanf("%d",&n);
@@ -26,8 +27,9 @@ int main(){
         return -1;
     }
 
+    //logic for special case
     printf("The %dth lucas number is:%d\n",n,lucas(n));
-
 
     return 0;
 }
+
